@@ -4,3 +4,16 @@
   "_hinge",
   "_rollIn",
   "_rollOut";
+
+
+.animated {
+  &.hinge {
+    @include hinge();
+  }
+  &.rollIn {
+    @include rollIn();
+  }
+  &.rollOut {
+    @include rollOut();
+  }
+}

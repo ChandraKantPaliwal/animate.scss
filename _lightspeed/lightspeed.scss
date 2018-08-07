@@ -3,3 +3,12 @@
 @import 
   "_lightSpeedIn",
   "_lightSpeedOut";
+
+.animated {
+  &.lightSpeedIn {
+    @include lightSpeedIn();
+  }
+  &.lightSpeedOut {
+    @include lightSpeedOut();
+  }
+}

@@ -11,3 +11,33 @@
   "_fadeInUp",
   "_fadeInUpBig";
   
+
+.animated {
+  &.fadeIn {
+    @include fadeIn();
+  }
+  &.fadeInDown {
+    @include fadeInDown();
+  }
+  &.fadeInDownBig {
+    @include fadeInDownBig();
+  }
+  &.fadeInLeft {
+    @include fadeInLeft();
+  }
+  &.fadeInLeftBig {
+    @include fadeInLeftBig();
+  }
+  &.fadeInRight {
+    @include fadeInRight();
+  }
+  &.fadeInRightBig {
+    @include fadeInRightBig();
+  }
+  &.fadeInUp {
+    @include fadeInUp();
+  }
+  &.fadeInUpBig {
+    @include fadeInUpBig();
+  }
+}

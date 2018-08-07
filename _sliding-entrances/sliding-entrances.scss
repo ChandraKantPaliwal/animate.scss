@@ -5,3 +5,19 @@
   "_slideInLeft",
   "_slideInRight",
   "_slideInUp";
+
+
+.animated {
+  &.slideInDown {
+    @include slideInDown();
+  }
+  &.slideInLeft {
+    @include slideInLeft();
+  }
+  &.slideInRight {
+    @include slideInRight();
+  }
+  &.slideInUp {
+    @include slideInUp();
+  }
+}

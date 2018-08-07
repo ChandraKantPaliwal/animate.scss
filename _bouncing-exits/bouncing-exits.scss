@@ -6,4 +6,21 @@
   "_bounceOutLeft",
   "_bounceOutRight",
   "_bounceOutUp";
-  
+
+.animated {
+  &.bounceOut {
+    @include bounceOut();
+  }
+  &.bounceOutDown {
+    @include bounceOutDown();
+  }
+  &.bounceOutLeft {
+    @include bounceOutLeft();
+  }
+  &.bounceOutRight {
+    @include bounceOutRight();
+  }
+  &.bounceOutUp {
+    @include bounceOutUp();
+  }
+}

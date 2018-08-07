@@ -6,3 +6,21 @@
   "_rotateOutDownRight",
   "_rotateOutUpLeft",
   "_rotateOutUpRight";
+
+.animated {
+  &.rotateOut {
+    @include rotateOut();
+  }
+  &.rotateOutDownLeft {
+    @include rotateOutDownLeft();
+  }
+  &.rotateOutDownRight {
+    @include rotateOutDownRight();
+  }
+  &.rotateOutUpLeft {
+    @include rotateOutUpLeft();
+  }
+  &.rotateOutUpRight {
+    @include rotateOutUpRight();
+  }
+}

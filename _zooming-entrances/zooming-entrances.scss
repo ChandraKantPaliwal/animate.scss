@@ -7,3 +7,21 @@
   "_zoomInRight",
   "_zoomInUp";
   
+
+.animated {
+  &.zoomIn {
+    @include zoomIn();
+  }
+  &.zoomInDown {
+    @include zoomInDown();
+  }
+  &.zoomInLeft {
+    @include zoomInLeft();
+  }
+  &.zoomInRight {
+    @include zoomInRight();
+  }
+  &.zoomInUp {
+    @include zoomInUp();
+  }
+}

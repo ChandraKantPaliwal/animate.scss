@@ -7,3 +7,20 @@
   "_bounceInRight",
   "_bounceInUp";
   
+.animated {
+  &.bounceIn {
+    @include bounceIn()
+  }
+  &.bounceInDown {
+    @include bounceInDown()
+  }
+  &.bounceInLeft {
+    @include bounceInLeft()
+  }
+  &.bounceInRight {
+    @include bounceInRight()
+  }
+  &.bounceInUp {
+    @include bounceInUp()
+  }
+}

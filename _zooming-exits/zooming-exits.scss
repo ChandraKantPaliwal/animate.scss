@@ -7,3 +7,20 @@
   "_zoomOutRight",
   "_zoomOutUp";
   
+.animated {
+  &.zoomOut {
+    @include zoomOut();
+  }
+  &.zoomOutDown {
+    @include zoomOutDown();
+  }
+  &.zoomOutLeft {
+    @include zoomOutLeft();
+  }
+  &.zoomOutRight {
+    @include zoomOutRight();
+  }
+  &.zoomOutUp {
+    @include zoomOutUp();
+  }
+}
